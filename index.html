@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gap-fill | Scientific Vocabulary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <video id="bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="card">
+    <h1>Gap-fill: Scientific Vocabulary</h1>
+
+    <p class="instructions">
+      Fill in the missing scientific words. Hover the <strong>?</strong> to see a hint, then click
+      <em>Check&nbsp;your&nbsp;score</em> to see how you did.
+    </p>
+
+    <p>
+      In a modern <span class="blank" data-answer="knowledge economy">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">an economy based on intellectual skills</span>
+      </span>,
+      science plays a key role. Researchers conduct experiments in the
+      <span class="blank" data-answer="laboratory">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">a place where scientific experiments are conducted</span>
+      </span>,
+      where they often need to
+      <span class="blank" data-answer="measure">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">determine size, amount, or degree</span>
+      </span>
+      changes in
+      <span class="blank" data-answer="matter">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">anything that has mass and takes up space</span>
+      </span>.
+      The results are considered
+      <span class="blank" data-answer="reliable">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">trustworthy or consistent</span>
+      </span>
+      only if they can
+      <span class="blank" data-answer="verify">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">confirm something is true</span>
+      </span>
+      the outcomes through repetition.
+    </p>
+
+    <p>
+      To make progress, scientists often need to
+      <span class="blank" data-answer="analyze result">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">to examine data in detail</span>
+      </span>
+      carefully. This helps them
+      <span class="blank" data-answer="draw a conclusion">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">to make a final judgment</span>
+      </span>
+      or even
+      <span class="blank" data-answer="test a hypothesis">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">to check if an idea is correct</span>
+      </span>
+      in a
+      <span class="blank" data-answer="scientifically">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">in a way related to science</span>
+      </span>
+      valid way.
+      They must choose the right
+      <span class="blank" data-answer="method">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">a systematic way of doing something</span>
+      </span>
+      and decide whether to use
+      <span class="blank" data-answer="quantitative">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">measurable in numbers</span>
+      </span>
+      or
+      <span class="blank" data-answer="qualitative">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">relating to qualities (not numbers)</span>
+      </span>
+      data.
+    </p>
+
+    <button id="check">Check your score</button>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>🧪 Your Results</h2>
+      <p id="modal-text"></p>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
